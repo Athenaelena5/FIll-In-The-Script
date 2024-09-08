@@ -1,12 +1,12 @@
-// Variable til 
-const minForm = document.querySelector("form");
-const p_output = document.getElementById("p_output");
-const button = document.getElementById("send");
+// VARIABLE:
+// - Til <p> så vi kan putte HTML ind i den. Kald den 'p_output'.
+// - Til knappen, så vi kan gøre den trykbar.
+// - Til inputfeltet, så vi kan hente indholdet af den.
 
-let besked = document.getElementById("besked");
+// EVENT LISTENER:
+// Knappen skal have en onclick event listener og kalde funktionen "visBesked"
 
-button.onclick = visBesked;
-
-function visBesked(){
-    p_output.innerHTML = besked.value;
-}
+// FUNCTIONS / EVENT HANDLERS:
+// Opret funktionen visBesked, der putter indholdet af inputfeltet ind i <p>
+// Du kan bruge denne kode:     
+//      p_output.innerHTML = besked.value;
