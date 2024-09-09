@@ -58,7 +58,7 @@ img{
 #venstreport, #hoejreport{
     width:50%;
     height:3000px;
-    background-color:grey;
+    background-color:rgb(46, 185, 255);
 
     /* Animation: */
     position:relative; /* Så jeg lige kan 'skubbe' til div'erne. */

@@ -18,6 +18,8 @@ function visbesked(){
 p_output.innerHTML = input_besked.value;
 }
 
+alert("iiii");
+
 // Opret funktionen visBesked, der putter indholdet af inputfeltet ind i <p>
 // Du kan bruge denne kode:     
 //      p_output.innerHTML = besked.value;
